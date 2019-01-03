@@ -2,78 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce11e6de-7fb8-4ecb-9f10-36b30117b5dc" name="默认" comment="">
-      <change afterPath="$PROJECT_DIR$/ans_16_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_steal/2019计算机组成原理题库/ans_10_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_steal/2019计算机组成原理题库/ans_10_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_steal/2019计算机组成原理题库/ans_11_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_steal/2019计算机组成原理题库/ans_11_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_steal/2019计算机组成原理题库/ans_12_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_steal/2019计算机组成原理题库/ans_13_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_steal/2019计算机组成原理题库/ans_14_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_steal/2019计算机组成原理题库/ans_9_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_steal/2019计算机组成原理题库/ans_9_1_0.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_steal/2019计算机组成原理题库/chapter_10_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_steal/2019计算机组成原理题库/chapter_10_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_steal/2019计算机组成原理题库/chapter_11_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_steal/2019计算机组成原理题库/chapter_11_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_steal/2019计算机组成原理题库/chapter_12_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_steal/2019计算机组成原理题库/chapter_13_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_steal/2019计算机组成原理题库/chapter_14_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_steal/2019计算机组成原理题库/chapter_9_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_steal/2019计算机组成原理题库/chapter_9_1_0.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_steal/2019计算机组成原理题库/chapter_9_4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_steal/ans_15_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_steal/chapter_15_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_steal/chapter_16_1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_steal/ans_0_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_steal/2019马克思主义原理题库/ans_0_1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_steal/ans_0_2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_steal/2019马克思主义原理题库/ans_0_2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_steal/ans_0_3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_steal/2019马克思主义原理题库/ans_0_3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_steal/ans_1_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_steal/2019马克思主义原理题库/ans_1_1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_steal/ans_1_2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_steal/2019马克思主义原理题库/ans_1_2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_steal/ans_1_3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_steal/2019马克思主义原理题库/ans_1_3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_steal/ans_2_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_steal/2019马克思主义原理题库/ans_2_1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_steal/ans_2_2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_steal/2019马克思主义原理题库/ans_2_2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_steal/ans_2_3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_steal/2019马克思主义原理题库/ans_2_3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_steal/ans_3_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_steal/2019马克思主义原理题库/ans_3_1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_steal/ans_3_2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_steal/2019马克思主义原理题库/ans_3_2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_steal/ans_3_3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_steal/2019马克思主义原理题库/ans_3_3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_steal/ans_4_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_steal/2019马克思主义原理题库/ans_4_1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_steal/ans_4_2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_steal/2019马克思主义原理题库/ans_4_2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_steal/ans_4_3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_steal/2019马克思主义原理题库/ans_4_3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_steal/ans_5_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_steal/2019马克思主义原理题库/ans_5_1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_steal/ans_5_2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_steal/2019马克思主义原理题库/ans_5_2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_steal/ans_5_3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_steal/2019马克思主义原理题库/ans_5_3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_steal/ans_6_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_steal/2019马克思主义原理题库/ans_6_1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_steal/ans_6_2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_steal/2019马克思主义原理题库/ans_6_2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_steal/ans_6_3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_steal/2019马克思主义原理题库/ans_6_3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_steal/ans_7_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_steal/2019马克思主义原理题库/ans_7_1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_steal/ans_7_2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_steal/2019马克思主义原理题库/ans_7_2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_steal/ans_7_3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_steal/2019马克思主义原理题库/ans_7_3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_steal/chapter_0_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_steal/2019马克思主义原理题库/chapter_0_1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_steal/chapter_0_2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_steal/2019马克思主义原理题库/chapter_0_2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_steal/chapter_0_3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_steal/2019马克思主义原理题库/chapter_0_3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_steal/chapter_1_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_steal/2019马克思主义原理题库/chapter_1_1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_steal/chapter_1_2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_steal/2019马克思主义原理题库/chapter_1_2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_steal/chapter_1_3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_steal/2019马克思主义原理题库/chapter_1_3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_steal/chapter_2_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_steal/2019马克思主义原理题库/chapter_2_1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_steal/chapter_2_2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_steal/2019马克思主义原理题库/chapter_2_2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_steal/chapter_2_3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_steal/2019马克思主义原理题库/chapter_2_3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_steal/chapter_3_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_steal/2019马克思主义原理题库/chapter_3_1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_steal/chapter_3_2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_steal/2019马克思主义原理题库/chapter_3_2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_steal/chapter_3_3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_steal/2019马克思主义原理题库/chapter_3_3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_steal/chapter_4_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_steal/2019马克思主义原理题库/chapter_4_1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_steal/chapter_4_2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_steal/2019马克思主义原理题库/chapter_4_2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_steal/chapter_4_3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_steal/2019马克思主义原理题库/chapter_4_3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_steal/chapter_5_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_steal/2019马克思主义原理题库/chapter_5_1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_steal/chapter_5_2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_steal/2019马克思主义原理题库/chapter_5_2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_steal/chapter_5_3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_steal/2019马克思主义原理题库/chapter_5_3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_steal/chapter_6_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_steal/2019马克思主义原理题库/chapter_6_1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_steal/chapter_6_2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_steal/2019马克思主义原理题库/chapter_6_2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_steal/chapter_6_3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_steal/2019马克思主义原理题库/chapter_6_3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_steal/chapter_7_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_steal/2019马克思主义原理题库/chapter_7_1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_steal/chapter_7_2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_steal/2019马克思主义原理题库/chapter_7_2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_steal/chapter_7_3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_steal/2019马克思主义原理题库/chapter_7_3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ques/static/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/ques/static/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/now-ui-kit.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/now-ui-kit.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -105,25 +36,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="71" />
+          <entry key="css" value="73" />
           <entry key="html" value="4842" />
-          <entry key="py" value="3771" />
-          <entry key="txt" value="214" />
+          <entry key="py" value="3777" />
+          <entry key="txt" value="236" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="71" />
+          <entry key="CSS" value="73" />
           <entry key="HTML" value="4737" />
           <entry key="HTTP Request" value="105" />
-          <entry key="PLAIN_TEXT" value="214" />
-          <entry key="Python" value="3771" />
+          <entry key="PLAIN_TEXT" value="236" />
+          <entry key="Python" value="3777" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="chapter_9_1" value="1" />
-          <entry key="css" value="13" />
+          <entry key="css" value="16" />
           <entry key="html" value="13" />
           <entry key="jpg" value="1" />
           <entry key="js" value="1" />
@@ -134,7 +65,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="13" />
+          <entry key="CSS" value="16" />
           <entry key="HTML" value="13" />
           <entry key="Image" value="1" />
           <entry key="JavaScript" value="1" />
@@ -168,8 +99,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data_steal/t.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="397">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="e#554#1008#0" />
                 <element signature="e#1034#1263#0" />
@@ -182,19 +113,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data_steal/chapter_16_1.txt">
+        <entry file="file://$PROJECT_DIR$/static/css/now-ui-kit.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+            <state relative-caret-position="128">
+              <caret line="7203" column="25" selection-start-line="7203" selection-start-column="25" selection-end-line="7203" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ans_16_1.txt">
+        <entry file="file://$PROJECT_DIR$/data_steal/chapter_16_1.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="80" column="3" selection-start-line="80" selection-start-column="3" selection-end-line="80" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data_steal/ans_16_1.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="6" selection-start-column="6" selection-end-column="6" />
+              <caret column="14" selection-start-column="14" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -227,6 +167,9 @@
       <find>．</find>
       <find>.</find>
       <find>category</find>
+      <find>padding-left: 0;</find>
+      <find>.nav {</find>
+      <find>pl=</find>
     </findStrings>
     <replaceStrings>
       <replace>#209e85</replace>
@@ -249,7 +192,6 @@
         <option value="$PROJECT_DIR$/templates/registry.html" />
         <option value="$PROJECT_DIR$/ques/views.py" />
         <option value="$PROJECT_DIR$/templates/welcome.html" />
-        <option value="$PROJECT_DIR$/static/css/now-ui-kit.css" />
         <option value="$PROJECT_DIR$/ques/static/css/now-ui-kit.css" />
         <option value="$PROJECT_DIR$/data_steal/chapter_9_4.txt" />
         <option value="$PROJECT_DIR$/data_steal/chapter_9_1.txt" />
@@ -271,9 +213,13 @@
         <option value="$PROJECT_DIR$/data_steal/ans_14_1.txt" />
         <option value="$PROJECT_DIR$/data_steal/chpater_15_1.txt" />
         <option value="$PROJECT_DIR$/data_steal/ans_15_1.txt" />
-        <option value="$PROJECT_DIR$/data_steal/t.py" />
         <option value="$PROJECT_DIR$/ans_16_1.txt" />
+        <option value="$PROJECT_DIR$/data_steal/ans_16_1.txt" />
         <option value="$PROJECT_DIR$/data_steal/chapter_16_1.txt" />
+        <option value="$PROJECT_DIR$/data_steal/t.py" />
+        <option value="$PROJECT_DIR$/static/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/ques/static/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/static/css/now-ui-kit.css" />
       </list>
     </option>
   </component>
@@ -306,7 +252,12 @@
             <path>
               <item name="question" type="b2602c69:ProjectViewProjectNode" />
               <item name="question" type="462c0819:PsiDirectoryNode" />
-              <item name="data_steal" type="462c0819:PsiDirectoryNode" />
+              <item name="ques" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="question" type="b2602c69:ProjectViewProjectNode" />
+              <item name="question" type="462c0819:PsiDirectoryNode" />
+              <item name="question" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="question" type="b2602c69:ProjectViewProjectNode" />
@@ -318,11 +269,6 @@
               <item name="question" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="question" type="b2602c69:ProjectViewProjectNode" />
-              <item name="question" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -340,8 +286,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\Project\question\data_steal\2019计算机组成原理题库" />
       <recent name="G:\Project\question\data_steal" />
+      <recent name="G:\Project\question\data_steal\2019计算机组成原理题库" />
       <recent name="G:\Project\question\data_steal\2019马克思主义原理题库" />
       <recent name="G:\Project\question\ques\static\css" />
       <recent name="G:\Project\question\ques\static\js" />
@@ -532,13 +478,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/now-ui-kit.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="4830" column="26" lean-forward="true" selection-start-line="4830" selection-start-column="26" selection-end-line="4830" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ques/static/css/now-ui-kit.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -592,13 +531,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
           <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ques/static/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="2864" column="35" selection-start-line="2864" selection-start-column="35" selection-end-line="2864" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -769,10 +701,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data_steal/ans_16_1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_steal/chapter_16_1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="80" column="3" selection-start-line="80" selection-start-column="3" selection-end-line="80" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data_steal/t.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="397">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="e#554#1008#0" />
             <element signature="e#1034#1263#0" />
@@ -783,17 +729,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ans_16_1.txt">
+    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        <state relative-caret-position="267">
+          <caret line="4073" column="18" selection-start-line="4073" selection-start-column="18" selection-end-line="4073" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_steal/chapter_16_1.txt">
+    <entry file="file://$PROJECT_DIR$/ques/static/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        <state relative-caret-position="194">
+          <caret line="4070" column="7" selection-start-line="4070" selection-start-column="7" selection-end-line="4070" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/now-ui-kit.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="7203" column="25" selection-start-line="7203" selection-start-column="25" selection-end-line="7203" selection-end-column="25" />
         </state>
       </provider>
     </entry>
