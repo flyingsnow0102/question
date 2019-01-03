@@ -44,6 +44,17 @@ def change_category(request, category_id):
         return HttpResponse("WRONG")
 
 
+def get_question_info(ques_list):
+    import random
+    if isinstance(ques_list, list):
+        question = TQuestion.objects.get(question_id=ques_list[random.randint(0, len(ques_list) - 1)])
+    else:
+        question = ques_list[random.randint(0, len(ques_list) - 1)]
+    option_list = TOption.objects.filter(question_id=question.question_id).all()
+    answer_list = [a.option for a in TAnswer.objects.filter(question_id=question.question_id).all()]
+    return question, option_list, answer_list
+
+
 def change_password(request):
     if request.session.get('user_id'):
         user = SUser.objects.get(user_id=request.session.get('user_id'))
@@ -67,12 +78,7 @@ def random(request):
         # finish_list = list(
         #    SRecord.objects.filter(user_id=user.user_id).values_list("question", flat=True).distinct().all())
         ques_list = TQuestion.objects.filter(category=user.category_id).all()
-        import random
-        question = ques_list[random.randint(0, len(ques_list) - 1)]
-        # while question.question_id in finish_list:
-        #    question = ques_list[random.randint(0, len(ques_list) - 1)]
-        option_list = TOption.objects.filter(question_id=question.question_id).all()
-        answer_list = [a.option for a in TAnswer.objects.filter(question_id=question.question_id).all()]
+        question, option_list, answer_list = get_question_info(ques_list)
         redirect_url = "/random"
         return render(request, "question.html", locals())
     else:
@@ -96,17 +102,8 @@ def do(request):
 def chapter(request, chapter):
     if request.session.get('user_id'):
         user = SUser.objects.get(user_id=request.session.get('user_id'))
-        finish_list = list(
-            SRecord.objects.filter(user_id=user.user_id).values_list("question", flat=True).distinct().all())
         ques_list = TQuestion.objects.filter(category=user.category_id, chapter=chapter).all()
-        if not len(ques_list):
-            return redirect("/welcome")
-        import random
-        question = ques_list[random.randint(0, len(ques_list) - 1)]
-        while question.question_id in finish_list:
-            question = ques_list[random.randint(0, len(ques_list) - 1)]
-        option_list = TOption.objects.filter(question_id=question.question_id).all()
-        answer_list = [a.option for a in TAnswer.objects.filter(question_id=question.question_id).all()]
+        question, option_list, answer_list = get_question_info(ques_list)
         redirect_url = "/random/" + chapter + "/"
         return render(request, "question.html", locals())
     else:
@@ -117,16 +114,12 @@ def wrong(request):
     if request.session.get('user_id'):
         user = SUser.objects.get(user_id=request.session.get('user_id'))
         ques_list = list(
-            SRecord.objects.filter(user_id=user.user_id, status="0",question__category=user.category_id).values_list("question",
-                                                                                 flat=True).distinct().all())
-        print(len(ques_list))
+            SRecord.objects.filter(user_id=user.user_id, status="0", question__category=user.category_id).values_list(
+                "question",
+                flat=True).distinct().all())
         if not len(ques_list):
             return redirect("/welcome")
-        import random
-        question_id = ques_list[random.randint(0, len(ques_list) - 1)]
-        question = TQuestion.objects.get(question_id=question_id)
-        option_list = TOption.objects.filter(question_id=question.question_id).all()
-        answer_list = [a.option for a in TAnswer.objects.filter(question_id=question.question_id).all()]
+        question, option_list, answer_list = get_question_info(ques_list)
         redirect_url = "/wrong"
         return render(request, "question.html", locals())
     else:
