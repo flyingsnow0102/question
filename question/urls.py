@@ -23,6 +23,7 @@ urlpatterns = [
     path('welcome/', views.welcome),
     path('random/<chapter>/', views.chapter),
     path('question/<question_id>', views.question),
+    path('chapter/<chapter_id>/', views.view_chapter),
     path('random/', views.random),
     path('registry/', views.registry),
     path('wrong/', views.wrong),

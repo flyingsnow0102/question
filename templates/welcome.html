@@ -35,7 +35,7 @@
         }
 
         function changeCategory() {
-            $.get("/api/changeCategory/"+$("#category").val());
+            $.get("/api/changeCategory/" + $("#category").val());
             $("#settings").prepend('<div class="alert alert-success" role="alert">修改成功，请刷新页面</div>');
         }
 
@@ -120,13 +120,18 @@
                                     </div>
                                     <div class="col-sm-3 col-lg-12 pb-2">
                                         <div class="row">
-                                            <div class="col-lg-6 pb-2">
+                                            <div class="col-lg-4 pb-2">
+                                                <button type="button" onclick="location.href = '/chapter/'+$('#chapter').val();"
+                                                        class="btn btn-block btn-outline-info">答题情况
+                                                </button>
+                                            </div>
+                                            <div class="col-lg-4 pb-2">
                                                 <button type="button" onclick="location.href = '/random';"
                                                         class="btn btn-block btn-outline-success">乱序练习
                                                 </button>
                                             </div>
 
-                                            <div class="col-lg-6">
+                                            <div class="col-lg-4">
                                                 <button type="button" onclick="location.href = '/wrong';"
                                                         class="btn btn-block btn-outline-danger">错题回顾
                                                 </button>

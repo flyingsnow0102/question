@@ -1,6 +1,9 @@
 import datetime
 import uuid
 
+from django.core.paginator import EmptyPage
+from django.core.paginator import PageNotAnInteger
+from django.core.paginator import Paginator
 from django.shortcuts import render, redirect, HttpResponse
 
 from ques.models import *
@@ -63,6 +66,36 @@ def change_password(request):
         return HttpResponse("OK")
     else:
         return HttpResponse("WRONG")
+
+
+def view_chapter(request, chapter_id):
+    chapter = TChapter.objects.get(chapter_id=chapter_id)
+    user_id = request.session.get('user_id')
+    question_list = TQuestion.objects.filter(chapter=chapter_id).all()
+    record_list = SRecord.objects.filter(user_id=user_id, question__chapter=chapter_id).values("question",
+                                                                                               "status").distinct()
+    question = {}
+    for ques in question_list:
+        question[ques.question_id] = 'btn-secondary'
+    for record in record_list:
+        if record['status'] == '0':
+            question[record['question']] = 'btn-danger'
+        else:
+            question[record['question']] = 'btn-success'
+    topic_list =[]
+    for key,value in question.items():
+        topic_list.append({'question_id':key,'status':value})
+    limit = 42  # 每页显示的记录数
+    paginator = Paginator(topic_list, limit)  # 实例化一个分页对象
+    page = request.GET.get('page')  # 获取页码
+    try:
+        topics = paginator.page(page)  # 获取某页对应的记录
+    except PageNotAnInteger:  # 如果页码不是个整数
+        topics = paginator.page(1)  # 取第一页的记录
+    except EmptyPage:  # 如果页码太大，没有相应的记录
+        topics = paginator.page(paginator.num_pages)  # 取最后一页的记录
+    number = int((topics.number-1)*limit)
+    return render(request, 'chapter.html', locals())
 
 
 def question(request, question_id):
