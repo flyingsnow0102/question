@@ -21,8 +21,7 @@ from ques import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('welcome/', views.welcome),
-    path('random/<chapter>/', views.random_chapter),
-    path('order/<chapter>/', views.order_chapter),
+    path('random/<chapter>/', views.chapter),
     path('question/<question_id>', views.question),
     path('chapter/<chapter_id>/', views.view_chapter),
     path('random/', views.random),

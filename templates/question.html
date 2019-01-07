@@ -24,10 +24,6 @@
             color: #888888;
         }
 
-        a {
-            color: #209e85;;
-        }
-
         label {
             color: #888888;
         }
@@ -144,7 +140,7 @@
                             <span>{{ question.title }}</span>
                         </h6>
                         <div class="text-success">
-                            <small>{{ question.chapter.title }}</small>
+                                <small>{{ question.chapter.title }}</small>
                         </div>
                         <small class="text-info">
                             {% ifequal question.type 1 %} 单选题 {% endifequal %}
@@ -178,38 +174,21 @@
                         </div>
                         {% csrf_token %}
                         <div class="card-footer">
-                            <div class="row mx-auto">
+                            <div class="row">
                                 <div class="col-12 pb-2" id="form">
                                     <button type="button" class="btn btn-success" onclick="submit()">提交</button>
                                     <button type="button" class="btn btn-secondary" onclick="reset()">重置</button>
                                 </div>
-                                {% if redirect_url %}
-                                    <div class="col-12 pb-1">
-                                        <button type="button" class="btn btn-lg btn-block btn-outline-info "
-                                                onclick="location.href = '{{ redirect_url }}';">下一题
-                                        </button>
-                                    </div>
-                                {% endif %}
-                                {% if previous_page %}
-                                    <div class="{% if next_page %}col-6{% else %}col-12{% endif %} pb-1">
-                                        <button type="button" class="btn btn-lg btn-block btn-outline-info "
-                                                onclick="location.href = '{{ previous_page }}';">上一题
-                                        </button>
-                                    </div>
-                                {% endif %}
-                                {% if next_page %}
-                                    <div class="{% if previous_page %}col-6{% else %}col-12{% endif %} pb-1">
-                                        <button type="button" class="btn btn-lg btn-block btn-outline-info "
-                                                onclick="location.href = '{{ next_page }}';">下一题
-                                        </button>
-                                    </div>
-                                {% endif %}
+                                {% ifnotequal redirect_url ull%}
+                                <div class="col-12 pb-1">
+                                    <button type="button" class="btn btn-lg btn-block btn-outline-warning "
+                                            onclick="location.href = '{{ redirect_url }}';">下一题
+                                    </button>
+                                </div>
+                                {% endifnotequal %}
                             </div>
-                            {% if redirect_url or next_page or previous_page %}
-                                <a href="/welcome"> 返回主页</a>
-                            {% else %}
-                                <a onclick="javascript:history.back(-1);" href="#">返回上页</a>
-                            {% endif %}
+
+                            <a href="/welcome"> 返回主页</a>
                         </div>
                     </div>
                 </div>
