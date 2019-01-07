@@ -79,12 +79,12 @@ def view_chapter(request, chapter_id):
         question[ques.question_id] = 'btn-secondary'
     for record in record_list:
         if record['status'] == '0':
-            question[record['question']] = 'btn-danger'
+            question[record['question']] = 'btn-primary'
         else:
             question[record['question']] = 'btn-success'
-    topic_list =[]
-    for key,value in question.items():
-        topic_list.append({'question_id':key,'status':value})
+    topic_list = []
+    for key, value in question.items():
+        topic_list.append({'question_id': key, 'status': value})
     limit = 42  # 每页显示的记录数
     paginator = Paginator(topic_list, limit)  # 实例化一个分页对象
     page = request.GET.get('page')  # 获取页码
@@ -94,7 +94,7 @@ def view_chapter(request, chapter_id):
         topics = paginator.page(1)  # 取第一页的记录
     except EmptyPage:  # 如果页码太大，没有相应的记录
         topics = paginator.page(paginator.num_pages)  # 取最后一页的记录
-    number = int((topics.number-1)*limit)
+    number = int((topics.number - 1) * limit)
     return render(request, 'chapter.html', locals())
 
 
@@ -132,12 +132,33 @@ def do(request):
     return HttpResponse("OK")
 
 
-def chapter(request, chapter):
+def random_chapter(request, chapter):
     if request.session.get('user_id'):
         user = SUser.objects.get(user_id=request.session.get('user_id'))
         ques_list = TQuestion.objects.filter(category=user.category_id, chapter=chapter).all()
         question, option_list, answer_list = get_question_info(ques_list)
         redirect_url = "/random/" + chapter + "/"
+        return render(request, "question.html", locals())
+    else:
+        return redirect("/welcome")
+
+
+def order_chapter(request, chapter):
+    if request.session.get('user_id'):
+        user = SUser.objects.get(user_id=request.session.get('user_id'))
+        ques_list = TQuestion.objects.filter(category=user.category_id, chapter=chapter).all()
+        if not request.GET.get('index'):
+            index = 0
+            next_page = "/order/" + chapter + "/?index=1"
+        else:
+            index = int(request.GET.get('index'))
+            if index > 0:
+                previous_page = "/order/" + chapter + "/?index=" + str(index - 1)
+        if index < len(ques_list):
+            next_page = "/order/" + chapter + "/?index=" + str(index + 1)
+        ques_list = [ques_list[index].question_id]
+        question, option_list, answer_list = get_question_info(ques_list)
+
         return render(request, "question.html", locals())
     else:
         return redirect("/welcome")
