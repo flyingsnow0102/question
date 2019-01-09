@@ -10,22 +10,18 @@
           name='viewport'/>
     <link href="/static/css/now-ui-kit.css?v=1.2.0" rel="stylesheet"/>
     <link href="/static/css/bootstrap.css" rel="stylesheet"/>
-    <script src="/static/js/jquery-3.2.1.min.js" type="text/javascript"></script>
-    <script src="/static/js/popper.min.js" type="text/javascript"></script>
-    <script src="/static/js/bootstrap.js" type="text/javascript"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     <script src="/static/js/now-ui-kit.js?v=1.2.0" type="text/javascript"></script>
 
     <style>
-        .input-group-text {
-            font-size: 0.75rem;
-        }
-
         p {
             color: #888888;
         }
 
         a {
-            color: #209e85;;
+            color: #209e85;
         }
 
         label {
@@ -42,9 +38,7 @@
             {% for ans in answer_list %}
                 ans_list.push("{{ ans }}");
             {% endfor %}
-            if ({{ question.type}}!=
-            2
-        )
+            if ({{ question.type}}!=2)
             {
                 $("#form").remove();
             }
@@ -56,9 +50,7 @@
                 btn.removeClass("active");
             }
             else btn.addClass("active");
-            if ({{ question.type}}!=
-            2
-        )
+            if ({{ question.type}}!=2)
             {
                 submit();
             }
@@ -66,12 +58,12 @@
 
         function reset() {
             $("button.btn-lg").each(function () {
-                $(this).attr("class", "btn btn-lg btn-block btn-outline-secondary");
+                $(this).removeClass("active");
             });
         }
 
         Array.prototype.remove = function (val) {
-            var index = this.indexOf(val);
+            let index = this.indexOf(val);
             if (index > -1) {
                 this.splice(index, 1);
             }
@@ -135,7 +127,7 @@
     </script>
 </head>
 
-<body class="index-page sidebar-collapse">
+<body class="login-page sidebar-collapse">
 <!-- End Navbar -->
 <div class="page-header clear-filter" filter-color="green">
     <div class="page-header-image" style="background-image:url(/static/img/bg.jpg)"></div>

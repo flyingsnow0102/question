@@ -154,7 +154,7 @@ def order_chapter(request, chapter):
             index = int(request.GET.get('index'))
             if index > 0:
                 previous_page = "/order/" + chapter + "/?index=" + str(index - 1)
-        if index < len(ques_list):
+        if index < len(ques_list) - 1:
             next_page = "/order/" + chapter + "/?index=" + str(index + 1)
         ques_list = [ques_list[index].question_id]
         question, option_list, answer_list = get_question_info(ques_list)
