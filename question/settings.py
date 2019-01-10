@@ -15,7 +15,6 @@ import os
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
 
@@ -25,8 +24,7 @@ SECRET_KEY = 'xjzns1@%5yu6%h@r86-ptx%6y!k17b)14e@imm25-_#+%k-2hp'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['www.shylocks.ml','shylocks.ml','127.0.0.1','114.116.74.220']
-
+ALLOWED_HOSTS = ['www.shylocks.ml', 'shylocks.ml', '127.0.0.1', '114.116.74.220']
 
 # Application definition
 
@@ -71,22 +69,21 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'question.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 import pymysql
+
 pymysql.install_as_MySQLdb()
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',   # 数据库引擎
+        'ENGINE': 'django.db.backends.mysql',  # 数据库引擎
         'NAME': 'question',  # 数据库名，先前创建的
-        'USER': 'root',     # 用户名，可以自己创建用户
+        'USER': 'root',  # 用户名，可以自己创建用户
         'PASSWORD': '123456',  # 密码
         'HOST': 'localhost',  # mysql服务所在的主机ip
-        'PORT': '3306',         # mysql服务端口
+        'PORT': '3306',  # mysql服务端口
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators
@@ -106,7 +103,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/2.1/topics/i18n/
 
@@ -119,7 +115,6 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
-
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
